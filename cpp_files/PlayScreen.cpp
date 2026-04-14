@@ -115,7 +115,7 @@ void PlayScreen::update_Screen(sf::Time update_time)
 {
     elapsedTime += update_time;
 
-    if (elapsedTime.asSeconds() > 0.3f)
+    if (elapsedTime.asSeconds() > 0.2f)
     {
         for (auto& wall : walls)
         {
